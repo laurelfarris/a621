@@ -1,124 +1,90 @@
 \documentclass[12pt]{article}
-\usepackage[margin=1in]{geometry}
+\usepackage[margin=1.5in]{geometry}
+\setlength{\parindent}{0em}
+\setlength{\parskip}{0.5em}
 \usepackage{enumerate}
 \usepackage{enumitem}
 
-
 \setitemize{noitemsep}
+\setenumerate{noitemsep}
 %\setlist{itemize}{noitemsep}
 
 \begin{document}
 
 \textbf{ASTR 621: Planetary Science}
 
-\begin{enumerate}
-    \item Stevenson's 'laws' of origins studies
-    \item ISM properties
-        \begin{enumerate}
-            \item Important observations:
-                \begin{enumerate}
-                    \item Only molecules with a permanent dipole moment can be detected by
-                        their rotational emission lines, typically at mm and sub-mm
-                        wavelengths.
-                    \item H$_{2}$, C$_{2}$ seen by their electronic absorption lines at
-                        optical wavelengths against bright background stars.
-                    \item Cannot observe CH$_{4}$, N$_{2}$, C$_{2}$H$_{2}$ since no dipole
-                    \item Earth's atmosphere prevents H$_{2}$O, O$_{2}$, CO$_{2}$
-                \end{enumerate}
-            \item \textbf{ISM /= protosolar nebula!}
-            \item Magnetic field
-            \item Multiple star systems -8-
-            \item Angular momenta of stars -9-
-            \item Missing mass problem -9-
-            \item Young Stellar Objects (YSOs) -13-
-                Best studied in the IR because they are surrounded by dust,
-                the objects themselves are most luminous in the IR, and there
-                is an increased contrast against the nebular background.
-                T-Tauri stars -15-
-                \begin{itemize}
-                    \item Found in molecular clouds and OB associations.
-                    \item $M \sim M_{\odot}$
-                    \item irregular variability
-                    \item UV excess
-                    \item IR excess
-                    \item High mass outflow
-                \end{itemize}
-                These features are likely explained by \textbf{circumstellar disk}
+\begin{enumerate}[label=\Roman*.]
+    \item Our environment
+        \begin{enumerate}[label=\arabic*.]
+            \item Molecules -3-
+            \item Dust grains -4-
+            \item magnetic field -5-
+            \item Gravity, angular momentum (both important!) -6-
         \end{enumerate}
-        As a result, our information of what may be the dominant C, O, N
-        molecules is indirect and incomplete.
-    \item Gravitational Collapse -18-
-        \begin{enumerate}
-            \item Jean's Criterion: Uniform, homogeneous gas at rest,
-                infinite extent, assume adiabatic
-                \begin{itemize}
-                    \item $w^2 = c^2k^2 - 4\pi G\rho_o$;
-                        $w$ = frequency\ldots the higher this is, the more stable the
-                        cloud is against collapse.
-                    \item $n_{crit} = 10^{6}(T/20)^{3}(M_{\odot}/M)^{2}\;[\mathrm{cm}^{-3}]$
-                \end{itemize}
-            \item Comparison between observation and theory:
-                Rotation and magnetic fields must preserve clouds since we see
-                too many for the short timescales predicted by theory to be
-                true.
-            \item Fragmentation
-            \item Collapse modification
-                \begin{itemize}
-                    \item $w^2 = c^2k^2 + 2({\omega}k)^2/k^2  - 4\pi G\rho_o$
-                    \\
-                    $w^2$ is increased with a third term (always positive or
-                    zero) that accounts for
-                    rotation, which prevents collapse.
-                \end{itemize}
+    \item Star formation
+        \begin{enumerate}[label=\arabic*.]
+            \item Molecular clouds
+            \item Sites of star formation
         \end{enumerate}
-    \item Hayashi model -33-
-        \begin{itemize}
-            \item adiatic contraction
-            \item hydrostatic equilibrium
-        \end{itemize}
-    \item Accretion disk resulting from nebular collapse -65-
-        \begin{itemize}
-            \item Viscosity transports angular momentum outward
-            \item Mass near core is transported inward;
-                mass farther is transported outward
-        \end{itemize}
-    \item Opacity of the primordial solar nebula -71-
-        \begin{itemize}
-            \item Effect of opaticty on vertical (z) direction
-        \end{itemize}
-    \item Radial temperature gradient -75-
-    \item Dust in the Nebula -113-
-    \item Particle Motion in the nebula -124-
+    \item Young stellar objects (YSOs) -13-
+        \begin{enumerate}[label=\arabic*.]
+            \item T-Tauri stars -15-
+        \end{enumerate}
+    \item Gravitational collapse -18-
+        \begin{enumerate}[label=\arabic*.]
+            \item Comparison between observaton and theory -21-
+            \item Note on fragmentation -22-
+            \item Collapse $\rightarrow$ importance of rotation -23-
+            \item Magnetic field effects -25-
+            \item Flux enhancement -26-
+            \item Ambipolar diffusion -27-
+            \item Summary of the standard model -29-
+            \item Collapse calculations -30-
+        \end{enumerate}
+    \item The accretion disk resulting from nebular collapse -65-
+        \begin{enumerate}[label=\arabic*.]
+            \item Viscosity -66-
+            \item Vertical disk structure -69-
+            \item Opacity of the primordial solar nebula -71-
+            \item Radial temperature gradient -75-
+        \end{enumerate}
+    \item Paper: \textit{The evolution of viscous discs and the origin of the
+        nebular variables} -77-
+    \item The minimum mass solar nebula -89-
+        \begin{enumerate}[label=\arabic*.]
+            \item Disk cooling time -93-
+            \item Gravitational instabilities within a disk -93-
+            \item Cosmochemical constraints on the nebula -97-
+        \end{enumerate}
+    \item The condensation model -107-
+    \item Dust in the nebula -113-
+    \item Particle motion in the nebula -124-
     \item Processes that affect particle radial location in the nebula -129-
-        \begin{enumerate}
-            \item gas drag
-            \item radiation force
-            \item Poynting-Robertson Drag
+        \begin{enumerate}[label=\arabic*.]
+            \item Gas drag -129-
+            \item Radiation force -129-
+            \item Poynting-Robertson drag -130-
         \end{enumerate}
-    Yarkovsky effect: experienced by objects large enough to
-    experience spatial variations in surface temperature \\
-    $-->$ Spiraling radially outward!
-
-    \item{The Hill radius} \\
-    Range of gravitational influence of planet orbiting a star.
-    \item{Planetary Migration} \\
-    \begin{itemize}
-      \item Type I: linear, low-mass planets (< M$_{Saturn}$)
-      \item Type II: non-linear, gaps, larger masses
-    \end{itemize}
-
-    \item{Comets}
-
-
+    \item Yarkovski effect -132-
+    \item Accretion
+        \begin{enumerate}[label=\arabic*.]
+            \item Gas rich vs.\ gas free accretion -133-
+            \item Early stages of accretion -136-
+            \item Particles in a box -137-
+            \item Safronov theory -138-
+            \item Accretion rate -139-
+            \item Accretion times for other planets -141-
+            \item Runaway accretion -142-
+            \item More $\rightarrow$ `Coagulational' growth of planetesimals
+        \end{enumerate}
+    \item Formation of the giant planets -147-
+    \item Non-spherical gravitational potentials and their effect upon
+        orbit characteristic temperal variations
+        \begin{enumerate}[label=\arabic*.]
+            \item Tidal force
+            \item Hill sphere
+            \item Orbital effects of non-spherical central objects
+        \end{enumerate}
 \end{enumerate}
 
 \end{document}
-
-
-
-
-
-
-
-
-
